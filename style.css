@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    border-bottom: 1px solid #E5E5E5
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.p {
+    padding: 0 10px;
+}
+
+.img {
+    display: block;
+}
+
+.menu {
+    display: none;
+}
+
+.btn {
+    width: 256px;
+    height: 36px;
+    align-items: center;
+    padding: 6px 41.05px 6px 41.25px;
+    border-radius: 12px;
+    background: #FC004A;
+    color: white;
+    border: none;
+    font-family: Inter;
+    font-size: 14.75px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.img2 {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    margin-top: 50px;
+    display: block;
+
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 32.48px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.section-two{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.fot{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+
+@media (max-width:660px) {
+    .img {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+
+    }
+
+    .bg {
+        background-image: url(./Link\ →\ m69XYpPxUafYX7FG9FYmo8MBVJYWJyh9XoVGH371.jpg.svg);
+        width: 733px;
+        height: 231px;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+     .fot{
+        padding: 0 30px;
+     }
+     #close {
+        display: none;
+    }
+}
+
+@media (max-width:453px) {
+    .img {
+        display: none;
+    }
+
+    ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: aqua;
+    }
+
+    .menu {
+        display: block;
+    }
+    #close {
+        display: block;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    .bg2 {
+        background-image: url(./Container.png);
+        width: 358px;
+        height: 205.41px;
+        border-radius: 20px;
+        margin: 40px;
+    }
+    .fot{
+        display: block;
+        gap: 30px;
+    }
+}
